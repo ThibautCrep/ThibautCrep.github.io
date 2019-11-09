@@ -1,0 +1,41 @@
+p{
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    color: black;
+    font-size: 25px;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #0057ff;
+    font-size: 62px;
+    text-align: left;
+    position: relative;
+}
+footer{
+    text-align: center;
+    background-color: #F4F4F4;
+    padding-top: 30px;
+    padding-bottom: 70px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.behance{
+    color:rgba(0,0,0,0)
+}
+.linkedin{
+    color:rgba(0,0,0,0);
+}
+.instagram{
+    color:rgba(0,0,0,0)
+}
+footer p{
+    margin: 0;
+    color: #606060;
+    font-weight: 600;
+    font-size: 18px;
+}
+footer p a{
+    color: #101010;
+}
