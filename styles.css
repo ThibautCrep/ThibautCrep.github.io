@@ -13,6 +13,9 @@ h1{
     text-align: left;
     position: relative;
 }
+header{
+    padding-left: 100px;
+}
 footer{
     text-align: center;
     background-color: #F4F4F4;
