@@ -1,21 +1,96 @@
 p{
-    font-family: Montserrat, sans-serif;
+    font-family: Heebo, sans-serif;
     font-weight: 400;
     color: black;
     font-size: 25px;
 }
-
+#content{
+    margin: 0px 40px;
+}
 h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     color: #0057ff;
-    font-size: 62px;
-    text-align: left;
-    position: relative;
-    margin-left: 100px;
+    font-size: 30px;
+    margin: 0;
 }
-header{
-    padding-left: 100px;
+#header{
+    display: flex;
+    flex: auto;
+    flex-direction: row;
+    align-items: center;
+    }
+#header a{
+    display: inline;
+}
+#header a h1{
+    margin: 40px;
+}
+#navigation{
+    display: flex;
+    border: 0px solid black;
+    border-radius: 500px;
+    padding: 0;
+    align-items: center;
+    background-color: #F4F4F4;
+    transition: background 0.5s ease-in;
+}
+#navigation:hover{
+    background-color: #FFFFFF;
+    transition: background 0.5s ease-out;
+}
+#contact{
+    display: flex;
+    border: 0px solid black;
+    border-radius: 500px;
+    padding: 0;
+    margin-left: 20px;
+    align-items: center;
+    background-color: #f4f4f4;
+    transition: background 0.5s ease-in;
+}
+#contact:hover{
+    background-color: #0057ff;
+    transition: background 0.5s ease-out;
+}
+#navigation li{
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+    margin: 10px 0px;
+}
+#navigation li a{
+    font-family: Heebo, sans-serif;
+    color: #101010;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 10px;
+    margin 0px 20px;
+}
+#navigation li a:hover{
+    color: #0057ff;
+    border-bottom: 2px solid #0057ff;
+    padding-bottom: 0;
+    transition: border 0.5s cubic-bezier(0.645, 0.045, 0.355, 1.000), padding 0.4s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+#contact li{
+    padding-left: 20px;
+    padding-right: 20px;
+    list-style-type: none;
+    margin: 10px 0px;
+}
+#contact li a{
+    font-family: Heebo, sans-serif;
+    color: #0057ff;
+    font-size: 18px;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 10px;
+}
+#contact li a:hover{
+    color: #ffffff;
+    border-bottom: 2px solid #FFFFFF;
+    padding-bottom: 0;
+    transition: border 0.5s cubic-bezier(0.645, 0.045, 0.355, 1.000), padding 0.4s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 footer{
     text-align: center;
@@ -37,9 +112,13 @@ footer{
 footer p{
     margin: 0;
     color: #606060;
-    font-weight: 600;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 13px;
 }
 footer p a{
     color: #101010;
+}
+::selection {
+    color: white;
+    background-color: #0057ff;
 }
