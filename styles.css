@@ -50,7 +50,8 @@ h1{
     transition: background 0.5s ease-in;
 }
 #contact:hover{
-    background-color: #0057ff;
+    background: rgb(0,87,255);
+    background: linear-gradient(90deg, rgba(0,87,255,1) 0%, rgba(0,161,255,1) 100%);
     transition: background 0.5s ease-out;
 }
 #navigation li{
